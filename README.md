@@ -3,7 +3,7 @@
 Amazon Route 53 Resolver DNS 방화벽(이하 DNS 방화벽)을 사용해 VPC 에 대한 아웃바운드 DNS 요청을 필터링하고 제어할 수 있다.
 이를 통해 명시적으로 신뢰하는 도메인을 제외한 모든 도메인에 대해 액세스를 거부할 수 있다.
 
-여기에서는 DNS 방화벽 운영에 도움이 되는 정보를 제공하는 것이 목적이며, DNS 방화벽에 대한 자세한 내용은 [Route 53 Resolver DNS Firewall 공식 문서](https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/resolver-dns-firewall.html) 에서 확인할 수 있다. 
+여기에서는 DNS 방화벽 운영에 도움이 되는 정보를 제공하는 것이 목적이며, DNS 방화벽에 대한 자세한 내용은 [Amazon Route 53 Resolver DNS Firewall 공식 문서](https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/resolver-dns-firewall.html) 에서 확인할 수 있다. 
 
 
 ## Domain Rules
