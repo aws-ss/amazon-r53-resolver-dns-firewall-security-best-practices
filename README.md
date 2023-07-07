@@ -26,8 +26,8 @@ DNS 방화벽에서 문제가 발생해 정상적으로 해당 서비스를 사�
 * *Fail Open* : 모든 쿼리를 허용한다. 가용성을 우선시한다.
 * *Fail Close* : 모든 쿼리를 차단하고 `SERVFAIL` DNS 응답을 보낸다. 이 방식은 가용성보다 보안을 우선시한다.
 
-기본 동작 방식은 Fail Close 이다. ***즉, DNS 방화벽에서 문제가 발생하면 연동된 VPC에 대한 모든 DNS 요청을 차단하기 때문에 서비스 전체의 장애를 초래할 수 있다.
-그렇기 때문에, DNS 방화벽을 사용하는 조직에서는 Fail Open 방식으로 사용하는 것을 권장한다.***
+***DNS 방화벽 활성화 시, 기본 동작 방식은 Fail Close 이다. 이 말인 즉슨, DNS 방화벽에서 문제가 발생하면 연동된 VPC에 대한 모든 DNS 요청을 차단하기 때문에 서비스 전체의 장애를 초래할 수 있다.
+그러므로, DNS 방화벽을 사용하는 조직에서는 Fail Open 방식으로 사용하는 것을 권장한다.***
 
 
 ## Sharing Route 53 Resolver DNS Firewall rule groups between AWS accounts
