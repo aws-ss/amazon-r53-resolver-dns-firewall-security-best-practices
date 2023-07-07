@@ -30,7 +30,7 @@ DNS 방화벽에서 문제가 발생해 정상적으로 해당 서비스를 사�
 그러므로, DNS 방화벽을 사용하는 조직에서는 Fail Open 방식으로 사용하는 것을 권장한다.***
 
 
-## Sharing Route 53 Resolver DNS Firewall rule groups between AWS accounts
+## Sharing DNS Firewall rule groups between AWS accounts
 
 아쉽게도 Amazon Route53 Resolver DNS 방화벽에서는 다른 서비스(ex. GuardDuty, CloudTrail 등)와 같이 Organizations 단위로 정책을 중앙 관리할 수 있는 기능을 제공하지 않는다.
 
